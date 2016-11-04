@@ -1,0 +1,24 @@
+body {
+	background-color: Snow;
+}
+
+.container {
+	width: 1200px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+}
+
+.pink {
+	display: absolute;
+	background-color: pink;
+	left: 500px;
+}
+
+.green {
+	display: absolute;
+	background-color: MediumAquamarine;
+	left: 500px;
+}
