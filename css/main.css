@@ -1,5 +1,7 @@
 body {
-	background-color: Snow;
+	background-color: #b8d6d8;
+	background-image: url('/Users/virginiachae/wdi/wdi33/project0-racer/imgs/bg.png');
+	background-size: auto;
 }
 
 h1, h3 {
@@ -12,18 +14,20 @@ h1, h3 {
 .container {
 	width: 1200px;
 	margin: 0 auto;
+	height: 100vh;
 }
 
 .square {
-	width: 100px;
-	height: 100px;
-	opacity: 0.1;
+	width: 200px;
+	height: 200px;
 }
 
-.pink {
-	background-color: pink;
+.square.bear {
+	background-image: url('/Users/virginiachae/wdi/wdi33/project0-racer/imgs/bear.png');
+	background-size: cover;
 }
 
-.green {
-	background-color: MediumAquamarine;
+.square.doe{
+	background-image: url('/Users/virginiachae/wdi/wdi33/project0-racer/imgs/doe.png');
+	background-size: cover;
 }
